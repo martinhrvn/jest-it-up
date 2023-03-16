@@ -9,6 +9,12 @@ program
   .option('-m, --margin <margin>', 'minimum threshold increase', parseFloat, 0)
   .option('-r, --round <round>', 'round to nearest number', parseFloat, 0.001)
   .option('-i, --interactive', 'ask for confirmation before applying changes')
+  .option(
+    '-t, --tolerance <tolerance>',
+    'keeps the new threshold below the current coverage',
+    parseFloat,
+    0,
+  )
   .option('-s, --silent', 'do not output messages')
   .option('-d, --dry-run', 'process but do not change files')
   .version(version, '-v, --version')

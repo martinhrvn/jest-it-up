@@ -1,6 +1,6 @@
 {
   "name": "@martinhrvn/jest-it-up",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Automatically bump up global Jest thresholds whenever coverage goes above them",
   "keywords": [
     "jest",

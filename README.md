@@ -1,8 +1,8 @@
 # jest-it-up
 
 [![npm package version](https://img.shields.io/npm/v/jest-it-up)](https://www.npmjs.com/package/jest-it-up)
-[![Build status](https://img.shields.io/github/workflow/status/rbardini/jest-it-up/Main)](https://github.com/rbardini/jest-it-up/actions)
-[![Code coverage](https://img.shields.io/codecov/c/github/rbardini/jest-it-up.svg)](https://codecov.io/gh/rbardini/jest-it-up)
+[![Build status](https://img.shields.io/github/workflow/status/martinhrvn/jest-it-up/Main)](https://github.com/martinhrvn/jest-it-up/actions)
+[![Code coverage](https://img.shields.io/codecov/c/github/martinhrvn/jest-it-up.svg)](https://codecov.io/gh/martinhrvn/jest-it-up)
 [![Dependencies status](https://img.shields.io/librariesio/release/npm/jest-it-up)](https://libraries.io/npm/jest-it-up)
 
 Ensure incremental coverage gains are not lost, and positively reinforce good testing habits. Automatically bump up global Jest thresholds whenever coverage goes above them.
@@ -27,7 +27,7 @@ jest-it-up exposes a standalone CLI tool (see [options](#options)), but you most
 
 Within `package.json`:
 
-```js
+```json
 {
   "scripts": {
     "test": "jest --coverage", // or set `collectCoverage` to `true` in Jest config

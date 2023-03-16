@@ -1,9 +1,9 @@
 # jest-it-up
 
-[![npm package version](https://img.shields.io/npm/v/jest-it-up)](https://www.npmjs.com/package/jest-it-up)
+[![npm package version](https://img.shields.io/npm/v/@martinhrvn/jest-it-up)](https://www.npmjs.com/package/@martinhrvn/jest-it-up)
 [![Build status](https://img.shields.io/github/workflow/status/martinhrvn/jest-it-up/Main)](https://github.com/martinhrvn/jest-it-up/actions)
 [![Code coverage](https://img.shields.io/codecov/c/github/martinhrvn/jest-it-up.svg)](https://codecov.io/gh/martinhrvn/jest-it-up)
-[![Dependencies status](https://img.shields.io/librariesio/release/npm/jest-it-up)](https://libraries.io/npm/jest-it-up)
+[![Dependencies status](https://img.shields.io/librariesio/release/npm/@martinhrvn/jest-it-up)](https://libraries.io/npm/@martinhrvn/jest-it-up)
 
 Ensure incremental coverage gains are not lost, and positively reinforce good testing habits. Automatically bump up global Jest thresholds whenever coverage goes above them.
 
